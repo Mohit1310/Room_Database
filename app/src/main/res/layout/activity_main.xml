@@ -1,0 +1,71 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.appcompat.widget.LinearLayoutCompat xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:gravity="center"
+    tools:context=".MainActivity">
+
+    <EditText
+        android:layout_width="300dp"
+        android:layout_height="wrap_content"
+        android:id="@+id/r1"
+        android:hint="Record id"
+        android:layout_marginTop="30dp"
+        android:layout_marginBottom="30dp"/>
+
+    <EditText
+        android:layout_width="300dp"
+        android:layout_height="wrap_content"
+        android:id="@+id/t1"
+        android:hint="First Name"/>
+
+    <EditText
+        android:layout_width="300dp"
+        android:layout_marginTop="30dp"
+        android:layout_height="wrap_content"
+        android:id="@+id/t2"
+        android:hint="Last Name"/>
+
+    <Button
+        android:id="@+id/b1"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:padding="10dp"
+        android:text="Save to room"
+        android:layout_marginTop="30dp"/>
+
+    <Button
+        android:id="@+id/b2"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:padding="10dp"
+        android:text="Fetch data"
+        android:layout_marginTop="30dp"/>
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="30dp"
+        android:id="@+id/lbl"
+        android:text=""/>
+
+<!--    <ScrollView-->
+<!--        android:layout_width="match_parent"-->
+<!--        android:layout_height="match_parent"-->
+<!--        android:paddingLeft="10dp"-->
+<!--        android:paddingRight="10dp"-->
+<!--        android:background="#AB837E7E">-->
+
+<!--        <TextView-->
+<!--            android:layout_width="wrap_content"-->
+<!--            android:layout_height="match_parent"-->
+<!--            android:textSize="25sp"-->
+<!--            android:id="@+id/dataHolder"/>-->
+<!--    </ScrollView>-->
+
+
+
+</androidx.appcompat.widget.LinearLayoutCompat>
